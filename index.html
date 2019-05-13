@@ -162,6 +162,78 @@
             color: #DCDFE6;
         }
     </style>
+    <style>
+        nav {
+            color: #fda9cd;
+        }
+        
+        a:link {
+            color: #fda9cd;
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: #fda9cd;
+        }
+        
+        #nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            margin-top: 80px;
+        }
+        
+        #nav a {
+            text-decoration: none;
+            font-family: Cambria, serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: normal;
+            letter-spacing: normal;
+            line-height: 1.3em;
+            color: #596365;
+        }
+        
+        #nav a:hover {
+            text-decoration: none;
+            font-family: Cambria, serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: normal;
+            letter-spacing: normal;
+            line-height: 1.3em;
+            color: #000;
+        }
+        
+        .nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #abc9ec;
+            text-align: center;
+        }
+        
+        .item {
+            float: left;
+            display: inline;
+        }
+        
+        .item a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+        }
+        
+        .item a:hover {
+            background-color: #fda9cd;
+            color: white;
+        }
+    </style>
 
 
 </head>
@@ -169,14 +241,16 @@
 <body>
     <div class="main_page">
         <span class="header">
-          <img src="https://i.imgur.com/ilbU3oh.png" alt="Logo" height= "110" width= "650" text-align=left
-          >
+                <a href="https://chatcentral.github.io"><img src="https://i.imgur.com/ilbU3oh.png" height="100" width="525"/></a>
         </span>
     </div>
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./discord.html">Discord</a>
-    </nav>
+    <ul class="nav" style="display:flex; justify-content:center">
+        <li class="item"><u><a href="https://ChatCentral.github.io"><i class="fa fa-home"></i> Home</a></u></li>
+        <li class="item"><u><a href="https://ChatCentral.github.io/discord.html"><i class="fa fa-discord"></i> Discord Server</a></u></li>
+    </ul>
+    </span>
+    </div>
+
     Welcome to the ChatCentral website. It's currently an eyesore but you can deal with it
     </div>
     </div>
