@@ -1,2 +1,0 @@
-# chatcentral.github.io
-Boom
