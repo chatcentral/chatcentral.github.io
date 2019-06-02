@@ -1,0 +1,95 @@
+                                            nav {
+                                                background-color: #00587D;
+                                                width: 100%;
+                                                height: 50px;
+                                                padding-top: 0px;
+                                                padding-left: 0px;
+                                                padding-right: 0px;
+                                            }
+                                            
+                                            nav a {
+                                                display: block;
+                                                float: left;
+                                                color: #fff;
+                                                text-decoration: none;
+                                                font-size: 20px;
+                                                padding-top: 13px;
+                                                padding-right: 10px;
+                                                padding-bottom: 13px;
+                                                padding-left: 10px;
+                                                font-family: sans-serif;
+                                            }
+                                            
+                                            nav a:hover {
+                                                background-color: #007AAF
+                                            }
+                                            
+                                            #logo {
+                                                font-family: sans-serif;
+                                                font-size: 30px;
+                                                padding-top: 7px;
+                                                padding-right: 15px;
+                                                padding-bottom: 7px;
+                                                padding-left: 20px;
+                                            }
+                                            
+                                            #img1 {
+                                                display: inline-block;
+                                                padding-top: 50px;
+                                                padding-right: 2px;
+                                            }
+                                            
+                                            #welcome {
+                                                text-align: center;
+                                                font-family: sans-serif;
+                                                font-size: 30px;
+                                                background-image: #00587D;
+                                                display: block;
+                                                color: #fff
+                                            }
+                                            
+                                            #homescreenmessage {
+                                                text-align: center;
+                                                font-family: sans-serif;
+                                                font-size: 20px;
+                                                color: #fff
+                                            }
+                                            
+                                            .home {
+                                                background-color: #00587D;
+                                            }
+                                            
+                                            #joinbutton {
+                                                width: 120px;
+                                                margin-left: 45%;
+                                                margin-right: 45%;
+                                                height: 30px;
+                                                background-color: #fff;
+                                                border: 0px
+                                            }
+                                            
+                                            #joinbutton:hover {
+                                                background-color: #E3E3E3;
+                                                color: #000
+                                            }
+                                            
+                                            #bottom,
+                                            .contact {
+                                                font-family: sans-serif;
+                                                color: #666;
+                                                text-align: center;
+                                                font-size: 10px;
+                                            }
+                                            
+                                            .contact:hover {
+                                                color: #444
+                                            }
+                                            
+                                            #forumiframe {
+                                                outline: 0px;
+                                                border: 0px;
+                                                width: 100%;
+                                                float: left;
+                                                text-align: center;
+                                                height: 1000px;
+                                            }
