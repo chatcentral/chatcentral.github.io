@@ -134,3 +134,15 @@ h3 img {
     font-size: 15px;
     text-align: right;
 }
+
+#bottom,
+.contact {
+    font-family: sans-serif;
+    color: #666;
+    text-align: center;
+    font-size: 10px;
+}
+
+.contact:hover {
+    color: #444
+}
