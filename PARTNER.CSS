@@ -33,7 +33,7 @@
   }
   
   h3 span {
-      float: right;
+      float: right!important;
       margin-top: auto;
       margin-left: 10px;
   }
