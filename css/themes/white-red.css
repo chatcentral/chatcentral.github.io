@@ -17,3 +17,6 @@ main {
 div {
 text-decoration: none;
 }
+a:link {
+	color: #AF3D4E;
+}
