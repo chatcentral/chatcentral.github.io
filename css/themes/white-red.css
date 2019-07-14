@@ -3,6 +3,7 @@
 main {
 	background: #EDEDED;
 	color: #AF3D4E;
+	text-decoration: none;
 }
 
 .icons-social a {
@@ -11,4 +12,8 @@ main {
 
 .icons-social a svg path{
 	fill: #AF3D4E;
+}
+
+div {
+text-decoration: none;
 }
